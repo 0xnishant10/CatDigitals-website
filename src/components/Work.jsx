@@ -1,7 +1,8 @@
+/* eslint-disable */
 import React from "react";
 import WorkItem from "./WorkItem";
-import FacebookImg from '../assets/facebook.jpg'
-import InstaImg from '../assets/insta.jpg'
+import FacebookImg from '../assets/facebook2.jpg'
+import InstaImg from '../assets/insta2.jpg'
 
 const Work = () => {
     return (
