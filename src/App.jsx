@@ -1,4 +1,4 @@
-import Sidenav from './components/sidenav'
+import Sidenav from './components/Sidenav'
 import Main from './components/Main'
 import Work from './components/Work'
 import { Testimonial } from './components/Testimonial'
