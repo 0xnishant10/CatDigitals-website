@@ -13,7 +13,7 @@ function App() {
       <Sidenav />
       <Main />
       <Work />
-      <Testimonial/>
+      <Testimonial />
       <FAQ />
       <Contact />
       <Footer />
