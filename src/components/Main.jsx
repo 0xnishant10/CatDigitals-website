@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import MainItem from "./MainItem";
@@ -6,11 +7,11 @@ import {FaFacebookF, FaInstagram, FaLinkedinIn} from 'react-icons/fa'
 
 const Main = () => {
     return (
-        <div id='main'>
+        <div id='main' >
             <MainItem img={BlackImg} title='Black'/>
             
-            <div className="w-full h-screen absolute top-0 left-0 bg-black/80">
-                <div className="m-auto h-full w-full flex flex-col justify-center lg:items-center items-center">
+            <div className="w-full h-screen absolute top-0 left-0">
+                <div className="m-auto h-full w-full flex flex-col justify-center items-center items-center">
                     <h1 className="text-white sm:text-5xl text-4xl font-bold ">CAT DIGITALS</h1>
                     <h2 className="text-white flex sm:text-3xl text-2xl pt-4">
                     <TypeAnimation
@@ -22,7 +23,7 @@ const Main = () => {
                         1000,
                         
                     ]}
-                    wrapper="div"
+                    wrapper="span"
                     speed={50}
                     style={{ fontSize: '1em', paddingLeft: '5px'  }}
                     repeat={Infinity}

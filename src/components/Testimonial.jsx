@@ -221,7 +221,7 @@ const testimonialData = [
 
 export const Testimonial = () => {
   return (
-    <div className="container my-24 mx-auto md:px-6 " id='testimonial'>
+    <div className="hiddenc container my-24 mx-auto md:px-6 " id='testimonial'>
       <section className="mb-32 text-center">
         <h2 className="mb-12 text-3xl font-bold">Testimonials</h2>
 
