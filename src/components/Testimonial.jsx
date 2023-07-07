@@ -229,10 +229,10 @@ export const Testimonial = () => {
           {testimonialData.map((data) => (
             <div className="mb-12 md:mb-0 " key={data.id}>
               <div className="mb-6 flex justify-center">
-                <img
+                {/* <img
                   src={data.imgeUrl}
                   className="w-32 rounded-full shadow-lg dark:shadow-black/20"
-                />
+                /> */}
               </div>
               <h5 className="mb-2 text-lg font-bold">{data.name}</h5>
               <h6 className="mb-4 font-medium text-primary dark:text-primary-400">
