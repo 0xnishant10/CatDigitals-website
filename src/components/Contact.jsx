@@ -3,10 +3,10 @@ import React from "react";
 const Contact = () => {
   return (
     <>
-      <section id='contact' className="hiddenc flex items-center lg:h-screen font-poppins">
+      <section id='contact' className="hiddenc flex items-center lg:h-screen font-poppins bg-black">
         <div className="justify-center flex-1 max-w-6xl px-4 py-4 mx-auto lg:py-11 md:px-6">
           <div className="mb-10 text-left">
-            <h2 className="pb-2 mb-2 text-xl font-bold text-black md:text-3xl">
+            <h2 className="pb-2 mb-2 text-xl font-bold text-white md:text-3xl">
               Let's Stay Connected
             </h2>
           </div>
@@ -15,7 +15,7 @@ const Contact = () => {
               <div className="flex flex-wrap">
                 <div className="w-full px-4 mb-10 sm:w-1/2">
                   <div className="max-w-xs mx-auto">
-                    <div className="inline-flex items-center justify-center w-12 h-12 mb-6 text-gray-100 bg-blue-700 rounded-full dark:bg-blue-500">
+                    <div className="inline-flex items-center justify-center w-12 h-12 mb-6 text-gray-100 bg-blue-700 rounded-full dark:bg-cyan-500">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="16"
@@ -27,45 +27,21 @@ const Contact = () => {
                         <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"></path>
                       </svg>
                     </div>
-                    <h2 className="mb-4 text-xl font-bold leading-9 md:text-2xl">
+                    <h2 className="mb-4 text-xl text-white font-bold leading-9 md:text-2xl">
                       Email
                     </h2>
                     <a
                       href="#"
-                      className="text-base font-medium text-gray-500 md:text-lg dark:text-gray-400"
+                      className="text-base font-medium text-cyan-500 md:text-lg s"
                     >
                       nishant@catdigitals.com
                     </a>
                   </div>
                 </div>
+                
                 <div className="w-full px-4 mb-10 sm:w-1/2">
                   <div className="max-w-xs mx-auto">
-                    <div className="inline-flex items-center justify-center w-12 h-12 mb-6 text-gray-100 bg-blue-700 rounded-full dark:bg-blue-500">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        fill="currentColor"
-                        className="bi bi-telephone"
-                        viewBox="0 0 16 16"
-                      >
-                        <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"></path>
-                      </svg>
-                    </div>
-                    <h2 className="mb-4 text-xl font-bold leading-9 md:text-2xl ">
-                      Phone
-                    </h2>
-                    <a
-                      href="+917428025432"
-                      className="text-base font-medium text-gray-500 md:text-lg dark:text-gray-400"
-                    >
-                      +917428025432
-                    </a>
-                  </div>
-                </div>
-                <div className="w-full px-4 mb-10 sm:w-1/2">
-                  <div className="max-w-xs mx-auto">
-                    <div className="inline-flex items-center justify-center w-12 h-12 mb-6 text-gray-100 bg-blue-700 rounded-full dark:bg-blue-500">
+                    <div className="inline-flex items-center justify-center w-12 h-12 mb-6 text-gray-100 bg-blue-700 rounded-full dark:bg-cyan-500">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="16"
@@ -78,12 +54,12 @@ const Contact = () => {
                         <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path>
                       </svg>
                     </div>
-                    <h2 className="mb-4 text-xl font-bold leading-9  md:text-2xl">
+                    <h2 className="mb-4 text-xl text-white font-bold leading-9  md:text-2xl">
                       Office
                     </h2>
                     <a
                       href="#"
-                      className="text-base font-medium text-gray-500 md:text-lg dark:text-gray-400"
+                      className="text-base font-medium text-cyan-500 md:text-lg "
                     >
                       INDIA
                     </a>
@@ -96,7 +72,7 @@ const Contact = () => {
                 <div className="mb-6 ">
                   <label
                     htmlFor="firstname"
-                    className="block mb-2 font-bold text-gray-700 uppercase dark:text-gray-400"
+                    className="block mb-2 font-bold text-cyan-500 uppercase "
                   >
                     Email
                   </label>
@@ -105,13 +81,13 @@ const Contact = () => {
                     name="email"
                     placeholder="abc@gmail.com"
                     required=""
-                    className="block w-full px-4 py-3 mb-3 leading-tight  border border-gray-200 rounded  "
+                    className="block w-full px-4 py-3 mb-3 leading-tight bg-black border border-gray-200 rounded  "
                   />
                 </div>
                 <div className="mb-6 ">
                   <label
                     htmlFor="firstname"
-                    className="block mb-2 font-bold text-gray-700 uppercase dark:text-gray-400"
+                    className="block mb-2 font-bold text-cyan-500 uppercase "
                   >
                     Subject
                   </label>
@@ -120,13 +96,13 @@ const Contact = () => {
                     name="Subject"
                     placeholder="I'm asking information for..."
                     required=""
-                    className="block w-full px-4 py-3 mb-3 leading-tight border border-gray-200 rounded "
+                    className="block w-full px-4 py-3 mb-3 leading-tight bg-black border border-gray-200 rounded "
                   />
                 </div>
                 <div className="mb-6 ">
                   <label
                     htmlFor="firstname"
-                    className="block mb-2 font-bold text-gray-700 uppercase dark:text-gray-400"
+                    className="block mb-2 font-bold text-cyan-500 uppercase "
                   >
                     Message
                   </label>
@@ -135,10 +111,10 @@ const Contact = () => {
                     name="message"
                     placeholder="Describe your problem"
                     required=""
-                    className="block w-full px-4 leading-tight border border-gray-200 rounded  py-7 "
+                    className="block w-full px-4 leading-tight bg-black border border-gray-200 rounded  py-7 "
                   ></textarea>
                 </div>
-                <button className="px-4 py-2 font-medium text-gray-100 bg-blue-600 rounded shadow hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-700">
+                <button className="px-4 py-2 font-medium text-gray-100 bg-blue-600 rounded shadow hover:bg-blue-700 dark:bg-cyan-500 dark:hover:bg-cyan-700">
                   Send
                 </button>
               </form>
