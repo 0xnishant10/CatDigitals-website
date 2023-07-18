@@ -32,7 +32,7 @@ const Main = () => {
                     />
                     </h2>
                     <h3 className="text-white text-center flex sm:text-xl font-serif pt-4">We simplify HIGHER CONVERSIONS and INCREASED SALES for Clothing Brands</h3>
-                    <h4 className="text-white sm:text-2xl text-xl flex font-serif pt-4">Allowing them to focus on what they do best.</h4>
+                    <h4 className="text-white text-center sm:text-2xl text-xl flex font-serif pt-4">Allowing them to focus on what they do best.</h4>
                     <div className="flex justify-between pt-6 max-w-[200px] w-full ">
                         <a href="https://www.facebook.com/profile.php?id=100093571020006">
                         <FaFacebookF size={30} className="rounded-full bg-gray-100 shadow-lg shadow-cyan-500 p-1 cursor-pointer hover:scale-[2] ease in duration-200"/>
