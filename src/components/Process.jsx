@@ -4,7 +4,7 @@ const testimonialData = [
   {
     name: "GATHER CONTENT",
     description:
-      "In this initial step, we dive deep into your clothing brand's identity, capturing captivating visuals, engaging copy, and compelling storytelling elements. Our goal is to curate content that reflects your brand's essence, resonates with your target audience, and sets the stage for captivating social media campaigns. Trust Cat Digitals to bring your brand to life through carefully gathered content that captivates and inspires.",
+      "In the initial step, we collect visuals that highlight your craftsmanship. These form the foundation of our strategy, serving to attract a greater number of potential clients to your business.",
     position: "",
     imgeUrl: "https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).jpg",
     id: "1",
@@ -12,15 +12,15 @@ const testimonialData = [
   {
     name: "LAUNCH ADS",
     description:
-      "In the second step, we take your curated content and unleash it through targeted social media advertising. With strategic precision, we amplify your brand's reach, engage your desired audience, and drive traffic to your online platforms. Through carefully crafted ad campaigns, Cat Digitals helps your clothing brand make a memorable impact in the digital landscape. Get ready to witness the power of your brand taking flight as we launch ads that deliver results. ",
+      "Next, we launch ads based on the content we've collected. These ads are strategically designed and placed on popular social media platforms to capture clients attention.",
     position: "",
     imgeUrl: "https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).jpg",
     id: "2",
   },
   {
-    name: "OPTIMIZE AND ANALYZE",
+    name: "GENERATE LEADS",
     description:
-      "In the final step, we fine-tune and optimize your social media campaigns for maximum impact. By analyzing key metrics and insights, we continuously improve targeting, messaging, and strategies. Our goal is to drive better engagement, conversions, and long-term success for your clothing brand in the ever-evolving digital landscape. Trust Cat Digitals to optimize your campaigns and empower your brand's growth.",
+      "Finally, we collect information from individuals who are genuinely interested in your services. Prioritising high-quality leads and eliminating tire kickers.",
     position: "",
     id: "3",
     imgeUrl: "https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(3).jpg",
@@ -29,7 +29,7 @@ const testimonialData = [
 
 export const Process = () => {
   return (
-    <div className="max-w m-auto md:pl-20 p-4 py-16 bg-black" id='process'>
+    <div className="max-w m-auto md:pl-20 py-16 bg-black" id='process'>
       <section className="mb-32 text-center">
       <h1 className="text-white p-[100px] sm:text-5xl text-4xl font-bold ">Our Process</h1>
 

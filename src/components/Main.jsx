@@ -13,8 +13,8 @@ const Main = () => {
             <div className="w-full h-screen absolute top-0 left-0">
                 <div className="m-auto h-full w-full flex flex-col justify-center items-center items-center">
                     <h1 className="text-white sm:text-5xl text-4xl font-bold ">CAT DIGITALS</h1>
-                    <h3 className="text-white pt-2 font-serif"> Catapult Your Clothing Brand to New Heights </h3>
-                    <h2 className="text-cyan-500/75 flex sm:text-3xl text-2xl p-16">
+                    <h3 className="text-white pt-2 font-serif"> We Reach, You illuminate </h3>
+                    <h2 className="text-cyan-500/75 text-center flex sm:text-3xl text-2xl p-16">
               
                     <TypeAnimation
                     sequence={[
@@ -31,8 +31,8 @@ const Main = () => {
                     repeat={Infinity}
                     />
                     </h2>
-                    <h3 className="text-white text-center flex sm:text-xl font-serif pt-4">We simplify HIGHER CONVERSIONS and INCREASED SALES for Clothing Brands</h3>
-                    <h4 className="text-white text-center sm:text-2xl text-xl flex font-serif pt-4">Allowing them to focus on what they do best.</h4>
+                    <h3 className="text-white text-center flex sm:text-3xl text-xl font-serif pt-4">We simplify growth for Home Improvement Companies</h3>
+                    <h4 className="text-white text-center sm:text-2xl text-xl flex font-serif pt-4">by delivering quality leads with no heavy lifting required</h4>
                     <div className="flex justify-between pt-6 max-w-[200px] w-full ">
                         <a href="https://www.facebook.com/profile.php?id=100093571020006">
                         <FaFacebookF size={30} className="rounded-full bg-gray-100 shadow-lg shadow-cyan-500 p-1 cursor-pointer hover:scale-[2] ease in duration-200"/>

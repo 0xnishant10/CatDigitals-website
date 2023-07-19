@@ -6,10 +6,10 @@ import InstaImg from '../assets/insta2.jpg'
 
 const Work = () => {
     return (
-        <div id="who are we" className="max-w justify-center m-auto p-4 py-16 bg-black ring-2 ring-cyan-500">
+        <div id="who are we" className="max-w justify-center m-auto p-4 py-16 bg-black ring-2 ring-cyan-500 ">
             <h1 className="text-4xl font-bold text-center text-white ">Who Are We?</h1>
             <p className="text-center rounded-xl text-black py-8 font-serif text-white">
-            We're a Delhi-based agency specializing in unlocking the online potential of clothing brands through captivating social media campaigns on popular platforms. With our expertise in data-driven targeting, compelling content creation, and feline finesse, we drive engagement, turn heads, and boost sales, ensuring your brand stands out in the digital landscape.
+            We're a Delhi-based agency that helps Home Improvement Companies by delivering top-tier, high-quality leads through strategic advertising on popular social media sites. Our targeted approach not only frees you up to concentrate on your work, but also ensures your growth is driven by genuinely interested clients, making your business expansion smooth and efficient.
             </p>
             <div className="max-w-[1040px] grid sm:grid-cols-2 gap-12 pt-4">
                 <WorkItem img={FacebookImg} title='Facebook Ads' />
