@@ -11,7 +11,7 @@ const Main = () => {
             <MainItem img={BlackImg} title='Black'/>
             
             <div className="w-full h-screen absolute top-0 left-0">
-                <div className="m-auto h-full w-full flex flex-col justify-center items-center items-center">
+                <div className="m-auto h-full w-full flex flex-col justify-center items-center">
                     <h1 className="text-white sm:text-5xl text-4xl font-bold ">CAT DIGITALS</h1>
                     <h3 className="text-white pt-2 font-serif"> We Reach, You illuminate </h3>
                     <h2 className="text-cyan-500/75 text-center flex sm:text-3xl text-2xl p-16">
