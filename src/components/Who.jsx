@@ -13,7 +13,7 @@ const Work = () => {
         <h1 className="text-4xl font-bold text-center text-white ">
           Who Are We?
         </h1>
-        <p className="text-center rounded-xl py-8 font-serif text-white">
+        <p className="text-center text-xl pl-20 pr-20 rounded-xl py-8 font-serif text-white">
           We're a Delhi-based agency that helps Home Improvement Companies by
           delivering top-tier, high-quality leads through strategic advertising
           on popular social media sites. Our targeted approach not only frees
