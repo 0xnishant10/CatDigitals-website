@@ -37,7 +37,7 @@ const Main = () => {
             <h3 className="text-white text-center flex sm:text-3xl text-xl font-serif pt-4">
               We simplify growth for Home Improvement Companies
             </h3>
-            <h4 className="text-white font-semibold bg-gradient-to-r from-blue-800 to-green-500 bg-clip-text text-transparent text-center sm:text-2xl text-xl flex font-serif pt-4">
+            <h4 className="font-semibold bg-gradient-to-r from-blue-800 to-green-500 bg-clip-text text-transparent text-center sm:text-2xl text-xl flex font-serif pt-4">
               by delivering quality leads with
               no heavy lifting required
             </h4>
