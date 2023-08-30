@@ -4,7 +4,7 @@ const testimonialData = [
   {
     name: "GATHER CONTENT",
     description:
-      "In the initial step, we collect visuals that highlight your craftsmanship. These form the foundation of our strategy, serving to attract a greater number of potential clients to your business.",
+      "Our journey begins by sourcing captivating visuals and persuasive copy, the backbone of successful ad campaigns. Collaborating closely with you, we capture your brand's essence, ensuring each piece reflects your unique identity. This strategic foundation sets the stage for a compelling and resonant ad journey.",
     position: "",
     imgeUrl: "https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).jpg",
     id: "1",
@@ -12,15 +12,15 @@ const testimonialData = [
   {
     name: "LAUNCH ADS",
     description:
-      "Next, we launch ads based on the content we've collected. These ads are strategically designed and placed on popular social media platforms to capture clients attention.",
+      "With our curated content in hand, we move forward to the exciting phase of ad launch. Drawing from our expertise and insights, we strategically set up and deploy your ads across Facebook and Instagram. From precise targeting to optimal scheduling, we ensure your message reaches the right audience at the right time. As we hit the launch button, your campaign springs to life, ready to make an impact in the digital realm.",
     position: "",
     imgeUrl: "https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).jpg",
     id: "2",
   },
   {
-    name: "GENERATE LEADS",
+    name: "AMPLIFYING SALES/TRAFFIC",
     description:
-      "Finally, we collect information from individuals who are genuinely interested in your services. Prioritising high-quality leads and eliminating tire kickers.",
+      "Here's where the magic happens. With your Facebook and Instagram ads live, we focus on boosting sales and traffic. Guided by data insights, we refine strategies on the fly. Targeting precision and adaptable content lead to increased resonance. The result? A clear rise in both sales and traffic, showcasing the strength of our approach. Your success is paramount, and we're dedicated to delivering remarkable outcomes.",
     position: "",
     id: "3",
     imgeUrl: "https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(3).jpg",
@@ -29,9 +29,11 @@ const testimonialData = [
 
 export const Process = () => {
   return (
-    <div className="max-w m-auto md:pl-20 py-16 bg-black" id='process'>
+    <div className="max-w m-auto md:pl-20 py-16 bg-black" id="process">
       <section className="mb-32 text-center">
-      <h1 className="text-white p-[100px] sm:text-5xl text-4xl font-bold ">Our Process</h1>
+        <h1 className="text-white p-[100px] sm:text-5xl text-4xl font-bold ">
+          Our Process
+        </h1>
 
         <div className="grid gap-x-6 md:grid-cols-3 lg:gap-x-12">
           {testimonialData.map((data) => (
@@ -42,7 +44,9 @@ export const Process = () => {
                   className="w-32 rounded-full shadow-lg dark:shadow-black/20"
                 /> */}
               </div>
-              <h5 className="mb-2 text-cyan-500 text-lg font-bold">{data.name}</h5>
+              <h5 className="mb-2 text-cyan-500 text-lg font-bold">
+                {data.name}
+              </h5>
               <h6 className="mb-4 font-medium text-primary dark:text-primary-400">
                 {data.position}
               </h6>

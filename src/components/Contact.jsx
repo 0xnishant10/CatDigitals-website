@@ -3,7 +3,10 @@ import React from "react";
 const Contact = () => {
   return (
     <>
-      <section id='contact' className="hiddenc flex items-center lg:h-screen font-poppins bg-black">
+      <section
+        id="contact"
+        className="hiddenc flex items-center lg:h-screen font-poppins bg-black"
+      >
         <div className="justify-center flex-1 max-w-6xl px-4 py-4 mx-auto lg:py-11 md:px-6">
           <div className="mb-10 text-left">
             <h2 className="pb-2 mb-2 text-xl font-bold text-white md:text-3xl">
@@ -38,7 +41,7 @@ const Contact = () => {
                     </a>
                   </div>
                 </div>
-                
+
                 <div className="w-full px-4 mb-10 sm:w-1/2">
                   <div className="max-w-xs mx-auto">
                     <div className="inline-flex items-center justify-center w-12 h-12 mb-6 text-gray-100 bg-blue-700 rounded-full dark:bg-cyan-500">
@@ -61,14 +64,19 @@ const Contact = () => {
                       href="#"
                       className="text-base font-medium text-cyan-500 md:text-lg "
                     >
-                      INDIA
+                      DELHI, INDIA
                     </a>
                   </div>
                 </div>
               </div>
             </div>
             <div className="w-full px-4 lg:w-1/2">
-              <form action="https://getform.io/f/08a23ed7-c077-4cb1-a9fa-dbc484292abb" className="p-6" method="POST" encType="multipart/form-data">
+              <form
+                action="https://getform.io/f/08a23ed7-c077-4cb1-a9fa-dbc484292abb"
+                className="p-6"
+                method="POST"
+                encType="multipart/form-data"
+              >
                 <div className="mb-6 ">
                   <label
                     htmlFor="firstname"
