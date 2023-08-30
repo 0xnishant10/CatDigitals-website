@@ -89,7 +89,7 @@ const Contact = () => {
                     name="email"
                     placeholder="abc@gmail.com"
                     required=""
-                    className="text-white block w-full px-4 py-3 mb-3 leading-tight bg-black border border-gray-200 rounded  "
+                    className="text-gray-100 block w-full px-4 py-3 mb-3 leading-tight bg-black border border-gray-200 rounded  "
                   />
                 </div>
                 <div className="mb-6 ">
@@ -104,7 +104,7 @@ const Contact = () => {
                     name="Subject"
                     placeholder="I'm asking information for..."
                     required=""
-                    className="text-white block w-full px-4 py-3 mb-3 leading-tight bg-black border border-gray-200 rounded "
+                    className="text-gray-100 block w-full px-4 py-3 mb-3 leading-tight bg-black border border-gray-200 rounded "
                   />
                 </div>
                 <div className="mb-6 ">
@@ -119,7 +119,7 @@ const Contact = () => {
                     name="message"
                     placeholder="Describe your problem"
                     required=""
-                    className="text-white block w-full px-4 leading-tight bg-black border border-gray-200 rounded  py-7 "
+                    className="text-gray-100 block w-full px-4 leading-tight bg-black border border-gray-200 rounded  py-7 "
                   ></textarea>
                 </div>
                 <button className="px-4 py-2 font-medium text-gray-100 bg-blue-600 rounded shadow hover:bg-blue-700 dark:bg-cyan-500 dark:hover:bg-cyan-700">
