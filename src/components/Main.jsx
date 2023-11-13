@@ -16,7 +16,7 @@ const Main = () => {
             CAT DIGITALS
           </h1>
           <h2 className="text-center text-xl pl-20 pr-20 rounded-xl py-2 font-serif text-white">
-            E-commerce with Cat-like Precision
+           
           </h2>
           <h2 className="font-semibold bg-gradient-to-r from-blue-800 to-green-500 bg-clip-text text-transparent text-center flex sm:text-3xl text-2xl p-16">
             <TypeAnimation
@@ -33,14 +33,11 @@ const Main = () => {
               repeat={Infinity}
             />
           </h2>
-          <h3 className="text-white text-center flex sm:text-3xl text-xl font-serif pt-4">
-            Enjoy a sense of calm
-          </h3>
           <h4 className="font-semibold bg-gradient-to-r from-blue-800 to-green-500 bg-clip-text text-transparent text-center sm:text-2xl text-xl flex font-serif pt-4">
-            While we carry the load of boosting E-commerce traffic and sales
+            Santa doesn’t tell people that you own a business
           </h4>
           <h3 className="text-white text-center flex sm:text-3xl text-xl font-serif pt-4">
-            Leaving you stress-free
+            We Do !!
           </h3>
           <div className="flex justify-between pt-6 max-w-[200px] w-full ">
             <a href="https://www.facebook.com/profile.php?id=100093571020006">

@@ -13,15 +13,12 @@ const Work = () => {
       <h1 className="text-4xl font-bold text-center text-white ">
         Who Are We?
       </h1>
-      <p className="text-center text-xl pl-20 pr-20 rounded-xl py-8 font-serif bg-gradient-to-r from-blue-800 to-green-500 bg-clip-text text-transparent">
-        Located in the heart of Delhi, we are a dynamic social media marketing
-        agency dedicated to serving the needs of E-commerce businesses. With a
-        focus on driving growth and maximizing online presence, our agency is
-        your strategic partner in navigating the digital landscape. Through
-        carefully crafted campaigns, data-driven strategies, and expert
-        insights, we empower E-commerce businesses to flourish in the
-        competitive online market. Let us amplify your brand, engage your
-        audience, and boost your sales, all while you focus on what you do best.
+      <p className="text-center text-xl pl-20 pr-20 rounded-xl py-8 font-serif bg-gradient-to-r text-white bg-clip-text text-transparent">
+        We are based in the heart of Delhi, and at Cat Digitals, we're more than
+        just a social media marketing agency – we're your strategic partner in
+        navigating the dynamic digital landscape. Our team of savvy marketers is
+        here to elevate your brand presence and create a buzz that echoes far
+        beyond the city streets.
       </p>
       <div className="flex items-center justify-center">
         <div className="max-w-[1040px] grid sm:grid-cols-2 gap-12 pt-4">
